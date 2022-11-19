@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>table</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.aym.ae/wp-content/uploads/2017/06/wood-logo-white-reserve.svg" alt="">
+        </div>
+
+        <div class="btns">
+            <button class="btn create-button">create</button>
+            <button class="btn search-button">search</button>
+        </div>
+        <div class="create-box">
+            <div class="box-items">
+                <div class="item">
+                    <h3>item</h3>
+                    <input type="text" id="itemInput" placeholder="item name">
+                </div>
+                <div class="price">
+                    <h3>price</h3>
+                    <input type="number" id="priceInput" placeholder="item's price">
+                </div>
+                <div class="discount">
+                    <h3>discount</h3>
+                    <input type="number" id="discountInput" value="5">
+                </div>
+            </div>
+            <div class="button">
+                <button id="doneBtn">okay</button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="sales">
+        <div class="container">
+            <div class="head">
+                <h1>our products <i class="fa-solid fa-angle-down down-arrow"></i></h1>
+            </div>
+            <div class="table-guide">
+                <div class="item">
+                    <h1>Item <i class="fa-brands fa-sellsy"></i></h1>
+                </div>
+                <div class="price">
+                    <h1>Price <i class="fa-solid fa-money-check"></i></h1>
+                </div>
+                <div class="discount">
+                    <h1>Discount <i class="fa-solid fa-dollar-sign"></i></h1>
+                </div>
+            </div>
+            <div class="selling-items-list">
+
+            </div>
+        </div>
+    </section>
+    <div class="search-box">
+        <input type="text">
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
